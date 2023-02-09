@@ -19,6 +19,7 @@ function Motorbike(name, color) {
 
 // step 2: call the function
 let myBike = new Motorbike('Yamaha', 'Black');
+console.log(myBike.color);
 
 // JS's inbuilt object constructor
 let person = new Object({'name':'Wally', 'age':35});
