@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+
+        .grid-elem {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid-elem">col1</div>
+        <div class="grid-elem">col2</div>
+        <div class="grid-elem">col3</div>
+        <div class="grid-elem">col4</div>
+        <div class="grid-elem">col1</div>
+        <div class="grid-elem">col2</div>
+        <div class="grid-elem">col3</div>
+        <div class="grid-elem">col4</div>
+    </div>
+</body>
+</html>
